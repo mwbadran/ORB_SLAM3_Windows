@@ -21,18 +21,22 @@ All project files are organized so you can clone, build, and run in Release mode
 
    * Windows 11 → `Windows key + X → Terminal (Admin)`
    * Windows 10 → `Windows key + X → PowerShell (Admin)`
-4. Clone the repository:
+4. do :
+   ```sh
+   cd C:/
+   ```
+5. Clone the repository:
 
    ```sh
    git clone https://github.com/mwbadran/ORB_SLAM3_Windows
    ```
-5. Open the solution file:
+6. Open the solution file:
 
    ```
    ORB_SLAM3_Windows/slam.sln
    ```
-6. In Visual Studio, switch build mode from **Debug** → **Release**.
-7. Build the project (**Ctrl+Shift+B**).
+7. In Visual Studio, switch build mode from **Debug** → **Release**.
+8. Build the project (**Ctrl+Shift+B**).
 
 VERY IMPORTANT STEP:
 
