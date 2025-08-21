@@ -1,4 +1,4 @@
-# ORB\_SLAM3\_Windows (Modified)
+<img width="740" height="225" alt="image" src="https://github.com/user-attachments/assets/2ded1ab4-e388-4917-a605-4e208b351d97" /># ORB\_SLAM3\_Windows (Modified)
 
 ORB-SLAM3 Windows Fork with Mono Video & Simplified Setup
 This is a Windows-adapted version of ORB-SLAM3 with small improvements and a ready-to-build project. Includes the mono_video example for easy webcam/video testing.
@@ -21,7 +21,7 @@ All project files are organized so you can clone, build, and run in Release mode
 
    * Windows 11 → `Windows key + X → Terminal (Admin)`
    * Windows 10 → `Windows key + X → PowerShell (Admin)`
-4. do :
+4. Go to the C:/ Directory (or whereever you want to install) :
    ```sh
    cd C:/
    ```
@@ -30,12 +30,18 @@ All project files are organized so you can clone, build, and run in Release mode
    ```sh
    git clone https://github.com/mwbadran/ORB_SLAM3_Windows
    ```
-6. Open the solution file:
+6. Open the solution file (In Visual Studio):
 
    ```
    ORB_SLAM3_Windows/slam.sln
    ```
 7. In Visual Studio, switch build mode from **Debug** → **Release**.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2ded1ab4-e388-4917-a605-4e208b351d97" width="740" height="225" alt="image"/>
+</p>
+
+
 8. Build the project (**Ctrl+Shift+B**).
 
 VERY IMPORTANT STEP:
@@ -64,6 +70,10 @@ Compared to the original ORB-SLAM3 Windows port, this fork includes:
 ## 🔹 Mono Video Usage
 
 Run from the `ORB_SLAM3_Windows` directory after building:
+
+   ```sh
+   cd C:/ORB_SLAM3_Windows/
+   ```
 
 ### 1. Use a webcam (index 0) with calibration `TUM1.yaml` 
 
