@@ -418,6 +418,9 @@
     <ClCompile Include="Examples\Stereo-Inertial\stereo_inertial_tum_vi.cpp">
       <Filter>src\Examples\Stereo-Inertial</Filter>
     </ClCompile>
+    <ClCompile Include="Examples\Monocular\mono_video.cpp">
+      <Filter>src\Examples\Monocular</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="global.h">

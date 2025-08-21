@@ -7,6 +7,8 @@ int mono_euroc(int argc, char** argv);
 int mono_kitti(int argc, char** argv);
 int mono_tum(int argc, char** argv);
 int mono_tum_vi(int argc, char** argv);
+int mono_video(int argc, char** argv);
+
 // Monocular-Inertial
 int mono_inertial_euroc(int argc, char* argv[]);
 int mono_inertial_tum_vi(int argc, char** argv);
@@ -42,6 +44,9 @@ int main(int argc, char** argv)
     }
     else if (0 == strcmp(argv[1], "mono_tum_vi")) {
         mono_tum_vi(argc, &argv[1]);
+    }
+    else if (0 == strcmp(argv[1], "mono_video")) {
+        mono_video(argc, &argv[1]);
     }
     // Monocular-Inertial
     else if (0 == strcmp(argv[1], "mono_inertial_euroc")) {
@@ -82,6 +87,9 @@ int main(int argc, char** argv)
         printf("\n  mono_kitti path_to_vocabulary path_to_settings path_to_sequence");
         printf("\n  mono_tum path_to_vocabulary path_to_settings path_to_sequence");
         printf("\n  mono_tum_vi path_to_vocabulary path_to_settings path_to_image_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N) (trajectory_file_name)");
+
+        printf("\n  mono_video path_to_vocabulary path_to_settings path_to_video");
+
 
         // Monocular-Inertial
         printf("\n\nMonocular-Inertial examples:");

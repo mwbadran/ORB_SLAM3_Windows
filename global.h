@@ -7,7 +7,7 @@
 #include <windows.h>
 
 
-#define USE_BINARY_VOC  // Reading "ORBvoc.txt" in binary format to speed-up on Windows
+//#define USE_BINARY_VOC  // Reading "ORBvoc.txt" in binary format to speed-up on Windows
 //#define USE_BOOST     // Use boost library
 
 
