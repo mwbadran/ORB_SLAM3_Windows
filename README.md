@@ -1,5 +1,3 @@
-<img width="740" height="225" alt="image" src="https://github.com/user-attachments/assets/2ded1ab4-e388-4917-a605-4e208b351d97" /># ORB\_SLAM3\_Windows (Modified)
-
 ORB-SLAM3 Windows Fork with Mono Video & Simplified Setup
 This is a Windows-adapted version of ORB-SLAM3 with small improvements and a ready-to-build project. Includes the mono_video example for easy webcam/video testing.
 
