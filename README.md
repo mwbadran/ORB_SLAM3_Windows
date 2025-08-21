@@ -1,9 +1,15 @@
 # ORB\_SLAM3\_Windows (Modified)
 
-Windows version of ORB-SLAM3 with some updates and simplified setup.
-Original project: [UZ-SLAMLab/ORB\_SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) (GPLv3 license).
+ORB-SLAM3 Windows Fork with Mono Video & Simplified Setup
+This is a Windows-adapted version of ORB-SLAM3 with small improvements and a ready-to-build project. Includes the mono_video example for easy webcam/video testing.
 
-Tested on **Windows 10/11 Pro** with **Visual Studio 2022** (2019+ works).
+**Forked from:** [rexdsp/ORB_SLAM3_Windows](https://github.com/rexdsp/ORB_SLAM3_Windows)  
+
+Original project: [UZ-SLAMLab/ORB\_SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) (GPLv3 license).
+ (GPLv3 license).
+
+Tested on Windows 11 Pro with Visual Studio 2022 (any version ≥2019 should work).
+All project files are organized so you can clone, build, and run in Release mode with minimal setup.
 
 ---
 
@@ -18,7 +24,7 @@ Tested on **Windows 10/11 Pro** with **Visual Studio 2022** (2019+ works).
 4. Clone the repository:
 
    ```sh
-   git clone https://github.com/rexdsp/ORB_SLAM3_Windows
+   git clone https://github.com/mwbadran/ORB_SLAM3_Windows
    ```
 5. Open the solution file:
 
@@ -27,7 +33,7 @@ Tested on **Windows 10/11 Pro** with **Visual Studio 2022** (2019+ works).
    ```
 6. In Visual Studio, switch build mode from **Debug** → **Release**.
 7. Build the project (**Ctrl+Shift+B**).
-8. Download the vocabulary file [`ORBvoc.txt`](https://github.com/UZ-SLAMLab/ORB_SLAM3/blob/master/Vocabulary/ORBvoc.txt) and place it in:
+8. Download the vocabulary file [`ORBvoc.txt`](https://drive.google.com/file/d/1RFl3KE13EMGK_yXk2L7A-NG-Q_91QI4s/view?usp=sharing) and place it in:
 
    ```
    ORB_SLAM3_Windows/Vocabulary/
@@ -52,7 +58,7 @@ Compared to the original ORB-SLAM3 Windows port, this fork includes:
 
 Run from the `ORB_SLAM3_Windows` directory after building:
 
-### 1. Use a webcam (index 0) with calibration `TUM1.yaml`
+### 1. Use a webcam (index 0) with calibration `TUM1.yaml` 
 
 ```powershell
 .\x64\Release\slam.exe mono_video C:\ORB_SLAM3_Windows\Vocabulary\ORBvoc.txt C:\ORB_SLAM3_Windows\Examples\Monocular\TUM1.yaml 0
@@ -109,4 +115,3 @@ If you use ORB-SLAM3 in academic work, please cite:
 ```
 
 
-Do you also want me to add a **“Screenshots / Example Output”** section so people can see what it looks like when running `mono_video`?
