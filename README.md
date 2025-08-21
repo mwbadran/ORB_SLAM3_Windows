@@ -13,7 +13,7 @@ All project files are organized so you can clone, build, and run in Release mode
 
 ---
 
-## 🔹 Quick Setup (Windows)
+## 🔹 Quick Setup (Windows) - IMPORTANT
 
 1. Install **Visual Studio 2022** (or 2019).
 2. Install **Git** if you don’t already have it.
@@ -33,6 +33,9 @@ All project files are organized so you can clone, build, and run in Release mode
    ```
 6. In Visual Studio, switch build mode from **Debug** → **Release**.
 7. Build the project (**Ctrl+Shift+B**).
+
+VERY IMPORTANT STEP:
+
 8. Download the vocabulary file [`ORBvoc.txt`](https://drive.google.com/file/d/1RFl3KE13EMGK_yXk2L7A-NG-Q_91QI4s/view?usp=sharing) and place it in:
 
    ```
